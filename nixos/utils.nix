@@ -1,7 +1,7 @@
 { config, pkgs, ... }:
 {
   networking.hostName = config.var.hostname;
-  console.keymap = config.var.keyboardLayout;
+  console.keyMap = config.var.keyboardLayout;
 
   programs.dconf.enable = true;
   services = {

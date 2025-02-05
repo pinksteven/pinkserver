@@ -1,7 +1,7 @@
 { config, ... }:
 {
   # I ain't Stallman
-  nixpkgs.config.allowsUnfree = true;
+  nixpkgs.config.allowUnfree = true;
 
   nix.settings = {
     auto_optimise_store = true;

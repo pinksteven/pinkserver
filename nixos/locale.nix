@@ -1,7 +1,7 @@
 { config, ... }:
 
 {
-  time.timeZone = config.var.timeZone;
+  time.timeZone = config.var.timezone;
   i18n.defaultLocale = config.var.defaultLocale;
   i18n.extraLocaleSettings = {
     LC_ADDRESS = config.var.extraLocale;
